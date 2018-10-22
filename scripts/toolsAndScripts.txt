@@ -1,0 +1,17 @@
+#tools
+FastQC
+SICKLE
+SPAdes
+kraken
+ktImportTaxonomy
+bwa
+samtools
+qualimap
+quast
+
+#DB
+DB:
+  minikraken: /home/mostafa.abdel/dbs/miniKraken/minikraken_20171019_8GB
+
+#Scripts
+/home/software/qualimap/qualimap_v2.2.1/qualimap
