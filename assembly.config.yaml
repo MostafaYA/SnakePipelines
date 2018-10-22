@@ -1,0 +1,68 @@
+samples:
+  16S0529:
+    fw: /home/mostafa.abdel/aProjects/Campylobacter/snakemakeProject/tutorial_2/reads/16S0529_S17_L001_R1_001.fastq.gz
+    rv: /home/mostafa.abdel/aProjects/Campylobacter/snakemakeProject/tutorial_2/reads/16S0529_S17_L001_R2_001.fastq.gz
+    locustag:  "16S0529"
+    genustag:  ""
+    taxonomy:  ""
+  16S0530:
+    fw: /home/mostafa.abdel/aProjects/Campylobacter/snakemakeProject/tutorial_2/reads/16S0530_S18_L001_R1_001.fastq.gz
+    rv: /home/mostafa.abdel/aProjects/Campylobacter/snakemakeProject/tutorial_2/reads/16S0530_S18_L001_R2_001.fastq.gz
+    locustag:  "16S0530"
+    genustag:  ""
+    taxonomy:  ""
+  ERR084002:
+    fw: /home/mostafa.abdel/aProjects/Campylobacter/snakemakeProject/tutorial_2/reads/ERR084002_1.fastq.gz
+    rv: /home/mostafa.abdel/aProjects/Campylobacter/snakemakeProject/tutorial_2/reads/ERR084002_2.fastq.gz
+    locustag:  "ERR084002"
+    genustag:  ""
+    taxonomy:  ""
+  ERR108309:
+    fw: /home/mostafa.abdel/aProjects/Campylobacter/snakemakeProject/tutorial_2/reads/ERR108309_1.fastq.gz
+    rv: /home/mostafa.abdel/aProjects/Campylobacter/snakemakeProject/tutorial_2/reads/ERR108309_2.fastq.gz
+    locustag:  "ERR108309"
+    genustag:  ""
+    taxonomy:  ""
+  ERR152322:
+    fw: /home/mostafa.abdel/aProjects/Campylobacter/snakemakeProject/tutorial_2/reads/ERR152322_1.fastq.gz
+    rv: /home/mostafa.abdel/aProjects/Campylobacter/snakemakeProject/tutorial_2/reads/ERR152322_2.fastq.gz
+    locustag:  "ERR152322"
+    genustag:  ""
+    taxonomy:  ""
+  ERR152323:
+    fw: /home/mostafa.abdel/aProjects/Campylobacter/snakemakeProject/tutorial_2/reads/ERR152323_1.fastq.gz
+    rv: /home/mostafa.abdel/aProjects/Campylobacter/snakemakeProject/tutorial_2/reads/ERR152323_2.fastq.gz
+    locustag:  "ERR152323"
+    genustag:  ""
+    taxonomy:  ""
+  ERR152332:
+    fw: /home/mostafa.abdel/aProjects/Campylobacter/snakemakeProject/tutorial_2/reads/ERR152332_1.fastq.gz
+    rv: /home/mostafa.abdel/aProjects/Campylobacter/snakemakeProject/tutorial_2/reads/ERR152332_2.fastq.gz
+    locustag:  "ERR152332"
+    genustag:  ""
+    taxonomy:  ""
+  ERR152334:
+    fw: /home/mostafa.abdel/aProjects/Campylobacter/snakemakeProject/tutorial_2/reads/ERR152334_1.fastq.gz
+    rv: /home/mostafa.abdel/aProjects/Campylobacter/snakemakeProject/tutorial_2/reads/ERR152334_2.fastq.gz
+    locustag:  "ERR152334"
+    genustag:  ""
+    taxonomy:  ""
+  ERR152340:
+    fw: /home/mostafa.abdel/aProjects/Campylobacter/snakemakeProject/tutorial_2/reads/ERR152340_1.fastq.gz
+    rv: /home/mostafa.abdel/aProjects/Campylobacter/snakemakeProject/tutorial_2/reads/ERR152340_2.fastq.gz
+    locustag:  "ERR152340"
+    genustag:  ""
+    taxonomy:  ""
+DB:
+  minikraken: /home/mostafa.abdel/dbs/miniKraken/minikraken_20171019_8GB
+  kraken: /home/DB_RAM/KrakenDB
+  krona: /home/DB/Krona_Taxonomy
+  CanSNPer: /home/software/CanSNPer/CanSNPerDB.db
+  BLAST:
+    nr:
+      /home/DB/BLAST/nr/nr
+    nt:
+      /home/DB/BLAST/nt/nt
+tools:
+  scripts_dir: /home/mostafa.abdel/aProjects/Campylobacter/snakemakeProject/Final-Snake-Project/Scripts
+  multiqc_bin: /home/mostafa.abdel/.local/bin
