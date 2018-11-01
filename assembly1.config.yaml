@@ -66,3 +66,5 @@ DB:
 tools:
   scripts_dir: /home/mostafa.abdel/aProjects/Campylobacter/snakemakeProject/Final-Snake-Project/Scripts
   multiqc_bin: /home/mostafa.abdel/.local/bin
+directories:
+  snakemake_folder: /home/mostafa.abdel/aProjects/Campylobacter/snakemakeProject/Final-Snake-Project

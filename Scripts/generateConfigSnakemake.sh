@@ -8,8 +8,7 @@
 
 #To-Do
 #1- make a help MSG
-#2- first scan the folder for the reads and create error if the reads don't match the required pattern
-#3- create error if the nunber of IDs less than half the number of the reads
+#2- create error if the nunber of IDs less than half the number of the reads, wrong guessing of ids
 
 
 #variables
@@ -18,27 +17,35 @@ fastqdir=$1
 outputfile=$2
 genusname=$3
 
+#first scan the folder for the reads and create error if the reads don't match the required pattern
+CheckSamples=$((ls ${fastqdir}/*{fastq,fastq.gz,fq,fq.gz} 2> /dev/null | xargs -n 1 basename 2> /dev/null) | awk '{print NF}' | sort | uniq )
+if [[ $CheckSamples != 1 ]];
+  then echo -e "\e[31mcan not guess the samples. Samples names must end with one of these fastq,fastq.gz,fq,fq.gz , exit\e[39m";
+  exit 1;
+fi ;
+#create the output file
 echo "samples:" > ${outputfile}
 #get the ID of the sample
-ID=$(awk 'BEGIN{FS="_"}{ print $1 }' <(ls ${fastqdir}/*fastq 2> /dev/null | xargs -n 1 basename; ls ${fastqdir}/*fastq.gz 2> /dev/null | xargs -n 1 basename) | uniq | sort)
+ID=$(awk 'BEGIN{FS="_"}{ print $1 }' <(ls ${fastqdir}/*fastq 2> /dev/null | xargs -n 1 basename 2> /dev/null; ls ${fastqdir}/*fastq.gz 2> /dev/null | xargs -n 1 basename 2> /dev/null) | uniq | sort)
 printf "Guessing IDs.....\nThe follwoing IDs are predicted for the Samples: \n${ID}\n\n"
 printf "total number of samples =" && echo ${ID}| wc | awk '{print $2}'
 #get the full path of the reads
 #ls ${fastqdir}*fastq 2> /dev/null | xargs -n 1 basename ; ls ${fastqdir}*fastq.gz 2> /dev/null | xargs -n 1 basename #list directories content without showing the entire path
 #realpath $(ls ${fastqdir}*${ID}*fastq 2> /dev/null ; ls ${fastqdir}*${ID}*fastq.gz 2> /dev/null)
-for ID1 in $(awk 'BEGIN{FS="_"}{ print $1 }' <(ls ${fastqdir}/*fastq 2> /dev/null | xargs -n 1 basename; ls ${fastqdir}/*fastq.gz 2> /dev/null | xargs -n 1 basename) | uniq | sort);
+for ID1 in $(awk 'BEGIN{FS="_"}{ print $1 }' <(ls ${fastqdir}/*fastq 2> /dev/null | xargs -n 1 basename 2> /dev/null; ls ${fastqdir}/*fastq.gz 2> /dev/null | xargs -n 1 basename 2> /dev/null) | uniq | sort);
   do
     FILES1=$(realpath $(ls ${fastqdir}/${ID1}*_R1_*.gz  2>/dev/null ||  ls ${fastqdir}/${ID1}*_R1_*.fastq  2>/dev/null ) 2>/dev/null)
     FILES2=$(realpath $(ls ${fastqdir}/${ID1}*_R2_*.gz  2>/dev/null ||  ls ${fastqdir}/${ID1}*_R2_*.fastq  2>/dev/null ) 2>/dev/null)
         NF1=$(echo $FILES1 | awk '{print NF}')
     if [[ $NF1 -lt 1 ]]
     then
+        #if the reads dont match the format *_R1_*.gz, then check for *_1.fastq. if both formats are not there, then exit
         FILES1=$(realpath $(ls ${fastqdir}/${ID1}*_1.*.gz 2>/dev/null ||  ls ${fastqdir}/${ID1}*_1.fastq  2>/dev/null ) 2>/dev/null)
         FILES2=$(realpath $(ls ${fastqdir}/${ID1}*_2.*.gz 2>/dev/null ||  ls ${fastqdir}/${ID1}*_2.fastq  2>/dev/null ) 2>/dev/null)
         NF1=$(echo $FILES1 | awk '{print NF}')
         if [ $NF1 -lt 1 ]
         then
-            echo "file pattern must match *ID*_R1_*.fastq or *ID*_1.fastq. Files could also be zipped .gz"
+            echo -e "\e[31mfile pattern must match *ID*_R1_*.fastq or *ID*_1.fastq. Files could also be zipped .gz\e[39m"
             exit 1
         fi
     fi
@@ -75,6 +82,8 @@ echo "DB:
 
 echo "tools:
   scripts_dir: /home/mostafa.abdel/aProjects/Campylobacter/snakemakeProject/Final-Snake-Project/Scripts
-  multiqc_bin: /home/mostafa.abdel/.local/bin" >> ${outputfile}
-
+  multiqc_bin: /home/mostafa.abdel/.local/bin
+  prokka_bin: /home/software/miniconda3/bin" >> ${outputfile}
+echo "directories: snakemake_folder: /home/mostafa.abdel/aProjects/Campylobacter/snakemakeProject/Final-Snake-Project
+  tmp_dir_root: /localscratch " >> ${outputfile}
 echo "Output is written to " ${outputfile}

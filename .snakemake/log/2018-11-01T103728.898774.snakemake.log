@@ -1,0 +1,3 @@
+KeyError in line 26 of /home/mostafa.abdel/aProjects/Campylobacter/snakemakeProject/snakepipelines_bacterialgenomes/master.Snakefile:
+'directories'
+  File "/home/mostafa.abdel/aProjects/Campylobacter/snakemakeProject/snakepipelines_bacterialgenomes/master.Snakefile", line 26, in <module>

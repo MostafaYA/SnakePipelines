@@ -4,7 +4,7 @@
 file=$1
 
 if [ $# -lt 1 ]; then
-	echo "USAGE: contigCoverage.awk myFile"
+	echo "USAGE: contigCoverage.sh myFile"
 	echo "Output to STDOUT"
     exit 0
 fi
