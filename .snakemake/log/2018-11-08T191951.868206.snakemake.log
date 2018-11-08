@@ -1,0 +1,4 @@
+KeyError in line 86 of /home/mostafa.abdel/aProjects/Campylobacter/snakemakeProject/Final-Snake-Project/Snakefiles/virulenceAndAMR.Snakefile:
+'ariba_env'
+  File "/home/mostafa.abdel/aProjects/Campylobacter/snakemakeProject/snakepipelines_bacterialgenomes/master.Snakefile", line 30, in <module>
+  File "/home/mostafa.abdel/aProjects/Campylobacter/snakemakeProject/Final-Snake-Project/Snakefiles/virulenceAndAMR.Snakefile", line 86, in <module>

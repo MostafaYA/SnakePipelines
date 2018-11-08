@@ -1,0 +1,502 @@
+samples:
+  PNUSAC001306:
+    fw: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001306_1.fastq.gz
+    rv: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001306_2.fastq.gz
+    locustag:  "PNUSAC001306"
+    genustag:  "Campylobacter"
+    taxonomy:  "Campylobacter"
+  PNUSAC001307:
+    fw: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001307_1.fastq.gz
+    rv: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001307_2.fastq.gz
+    locustag:  "PNUSAC001307"
+    genustag:  "Campylobacter"
+    taxonomy:  "Campylobacter"
+  PNUSAC001308:
+    fw: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001308_1.fastq.gz
+    rv: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001308_2.fastq.gz
+    locustag:  "PNUSAC001308"
+    genustag:  "Campylobacter"
+    taxonomy:  "Campylobacter"
+  PNUSAC001309:
+    fw: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001309_1.fastq.gz
+    rv: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001309_2.fastq.gz
+    locustag:  "PNUSAC001309"
+    genustag:  "Campylobacter"
+    taxonomy:  "Campylobacter"
+  PNUSAC001310:
+    fw: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001310_1.fastq.gz
+    rv: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001310_2.fastq.gz
+    locustag:  "PNUSAC001310"
+    genustag:  "Campylobacter"
+    taxonomy:  "Campylobacter"
+  PNUSAC001311:
+    fw: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001311_1.fastq.gz
+    rv: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001311_2.fastq.gz
+    locustag:  "PNUSAC001311"
+    genustag:  "Campylobacter"
+    taxonomy:  "Campylobacter"
+  PNUSAC001312:
+    fw: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001312_1.fastq.gz
+    rv: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001312_2.fastq.gz
+    locustag:  "PNUSAC001312"
+    genustag:  "Campylobacter"
+    taxonomy:  "Campylobacter"
+  PNUSAC001313:
+    fw: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001313_1.fastq.gz
+    rv: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001313_2.fastq.gz
+    locustag:  "PNUSAC001313"
+    genustag:  "Campylobacter"
+    taxonomy:  "Campylobacter"
+  PNUSAC001314:
+    fw: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001314_1.fastq.gz
+    rv: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001314_2.fastq.gz
+    locustag:  "PNUSAC001314"
+    genustag:  "Campylobacter"
+    taxonomy:  "Campylobacter"
+  PNUSAC001315:
+    fw: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001315_1.fastq.gz
+    rv: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001315_2.fastq.gz
+    locustag:  "PNUSAC001315"
+    genustag:  "Campylobacter"
+    taxonomy:  "Campylobacter"
+  PNUSAC001316:
+    fw: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001316_1.fastq.gz
+    rv: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001316_2.fastq.gz
+    locustag:  "PNUSAC001316"
+    genustag:  "Campylobacter"
+    taxonomy:  "Campylobacter"
+  PNUSAC001317:
+    fw: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001317_1.fastq.gz
+    rv: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001317_2.fastq.gz
+    locustag:  "PNUSAC001317"
+    genustag:  "Campylobacter"
+    taxonomy:  "Campylobacter"
+  PNUSAC001318:
+    fw: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001318_1.fastq.gz
+    rv: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001318_2.fastq.gz
+    locustag:  "PNUSAC001318"
+    genustag:  "Campylobacter"
+    taxonomy:  "Campylobacter"
+  PNUSAC001319:
+    fw: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001319_1.fastq.gz
+    rv: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001319_2.fastq.gz
+    locustag:  "PNUSAC001319"
+    genustag:  "Campylobacter"
+    taxonomy:  "Campylobacter"
+  PNUSAC001320:
+    fw: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001320_1.fastq.gz
+    rv: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001320_2.fastq.gz
+    locustag:  "PNUSAC001320"
+    genustag:  "Campylobacter"
+    taxonomy:  "Campylobacter"
+  PNUSAC001321:
+    fw: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001321_1.fastq.gz
+    rv: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001321_2.fastq.gz
+    locustag:  "PNUSAC001321"
+    genustag:  "Campylobacter"
+    taxonomy:  "Campylobacter"
+  PNUSAC001322:
+    fw: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001322_1.fastq.gz
+    rv: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001322_2.fastq.gz
+    locustag:  "PNUSAC001322"
+    genustag:  "Campylobacter"
+    taxonomy:  "Campylobacter"
+  PNUSAC001323:
+    fw: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001323_1.fastq.gz
+    rv: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001323_2.fastq.gz
+    locustag:  "PNUSAC001323"
+    genustag:  "Campylobacter"
+    taxonomy:  "Campylobacter"
+  PNUSAC001325:
+    fw: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001325_1.fastq.gz
+    rv: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001325_2.fastq.gz
+    locustag:  "PNUSAC001325"
+    genustag:  "Campylobacter"
+    taxonomy:  "Campylobacter"
+  PNUSAC001326:
+    fw: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001326_1.fastq.gz
+    rv: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001326_2.fastq.gz
+    locustag:  "PNUSAC001326"
+    genustag:  "Campylobacter"
+    taxonomy:  "Campylobacter"
+  PNUSAC001327:
+    fw: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001327_1.fastq.gz
+    rv: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001327_2.fastq.gz
+    locustag:  "PNUSAC001327"
+    genustag:  "Campylobacter"
+    taxonomy:  "Campylobacter"
+  PNUSAC001328:
+    fw: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001328_1.fastq.gz
+    rv: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001328_2.fastq.gz
+    locustag:  "PNUSAC001328"
+    genustag:  "Campylobacter"
+    taxonomy:  "Campylobacter"
+  PNUSAC001329:
+    fw: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001329_1.fastq.gz
+    rv: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001329_2.fastq.gz
+    locustag:  "PNUSAC001329"
+    genustag:  "Campylobacter"
+    taxonomy:  "Campylobacter"
+  PNUSAC001330:
+    fw: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001330_1.fastq.gz
+    rv: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001330_2.fastq.gz
+    locustag:  "PNUSAC001330"
+    genustag:  "Campylobacter"
+    taxonomy:  "Campylobacter"
+  PNUSAC001331:
+    fw: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001331_1.fastq.gz
+    rv: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001331_2.fastq.gz
+    locustag:  "PNUSAC001331"
+    genustag:  "Campylobacter"
+    taxonomy:  "Campylobacter"
+  PNUSAC001332:
+    fw: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001332_1.fastq.gz
+    rv: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001332_2.fastq.gz
+    locustag:  "PNUSAC001332"
+    genustag:  "Campylobacter"
+    taxonomy:  "Campylobacter"
+  PNUSAC001333:
+    fw: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001333_1.fastq.gz
+    rv: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001333_2.fastq.gz
+    locustag:  "PNUSAC001333"
+    genustag:  "Campylobacter"
+    taxonomy:  "Campylobacter"
+  PNUSAC001334:
+    fw: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001334_1.fastq.gz
+    rv: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001334_2.fastq.gz
+    locustag:  "PNUSAC001334"
+    genustag:  "Campylobacter"
+    taxonomy:  "Campylobacter"
+  PNUSAC001335:
+    fw: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001335_1.fastq.gz
+    rv: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001335_2.fastq.gz
+    locustag:  "PNUSAC001335"
+    genustag:  "Campylobacter"
+    taxonomy:  "Campylobacter"
+  PNUSAC001336:
+    fw: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001336_1.fastq.gz
+    rv: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001336_2.fastq.gz
+    locustag:  "PNUSAC001336"
+    genustag:  "Campylobacter"
+    taxonomy:  "Campylobacter"
+  PNUSAC001337:
+    fw: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001337_1.fastq.gz
+    rv: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001337_2.fastq.gz
+    locustag:  "PNUSAC001337"
+    genustag:  "Campylobacter"
+    taxonomy:  "Campylobacter"
+  PNUSAC001338:
+    fw: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001338_1.fastq.gz
+    rv: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001338_2.fastq.gz
+    locustag:  "PNUSAC001338"
+    genustag:  "Campylobacter"
+    taxonomy:  "Campylobacter"
+  PNUSAC001339:
+    fw: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001339_1.fastq.gz
+    rv: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001339_2.fastq.gz
+    locustag:  "PNUSAC001339"
+    genustag:  "Campylobacter"
+    taxonomy:  "Campylobacter"
+  PNUSAC001340:
+    fw: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001340_1.fastq.gz
+    rv: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001340_2.fastq.gz
+    locustag:  "PNUSAC001340"
+    genustag:  "Campylobacter"
+    taxonomy:  "Campylobacter"
+  PNUSAC001341:
+    fw: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001341_1.fastq.gz
+    rv: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001341_2.fastq.gz
+    locustag:  "PNUSAC001341"
+    genustag:  "Campylobacter"
+    taxonomy:  "Campylobacter"
+  PNUSAC001342:
+    fw: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001342_1.fastq.gz
+    rv: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001342_2.fastq.gz
+    locustag:  "PNUSAC001342"
+    genustag:  "Campylobacter"
+    taxonomy:  "Campylobacter"
+  PNUSAC001343:
+    fw: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001343_1.fastq.gz
+    rv: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001343_2.fastq.gz
+    locustag:  "PNUSAC001343"
+    genustag:  "Campylobacter"
+    taxonomy:  "Campylobacter"
+  PNUSAC001344:
+    fw: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001344_1.fastq.gz
+    rv: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001344_2.fastq.gz
+    locustag:  "PNUSAC001344"
+    genustag:  "Campylobacter"
+    taxonomy:  "Campylobacter"
+  PNUSAC001345:
+    fw: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001345_1.fastq.gz
+    rv: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001345_2.fastq.gz
+    locustag:  "PNUSAC001345"
+    genustag:  "Campylobacter"
+    taxonomy:  "Campylobacter"
+  PNUSAC001346:
+    fw: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001346_1.fastq.gz
+    rv: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001346_2.fastq.gz
+    locustag:  "PNUSAC001346"
+    genustag:  "Campylobacter"
+    taxonomy:  "Campylobacter"
+  PNUSAC001347:
+    fw: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001347_1.fastq.gz
+    rv: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001347_2.fastq.gz
+    locustag:  "PNUSAC001347"
+    genustag:  "Campylobacter"
+    taxonomy:  "Campylobacter"
+  PNUSAC001348:
+    fw: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001348_1.fastq.gz
+    rv: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001348_2.fastq.gz
+    locustag:  "PNUSAC001348"
+    genustag:  "Campylobacter"
+    taxonomy:  "Campylobacter"
+  PNUSAC001349:
+    fw: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001349_1.fastq.gz
+    rv: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001349_2.fastq.gz
+    locustag:  "PNUSAC001349"
+    genustag:  "Campylobacter"
+    taxonomy:  "Campylobacter"
+  PNUSAC001350:
+    fw: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001350_1.fastq.gz
+    rv: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001350_2.fastq.gz
+    locustag:  "PNUSAC001350"
+    genustag:  "Campylobacter"
+    taxonomy:  "Campylobacter"
+  PNUSAC001351:
+    fw: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001351_1.fastq.gz
+    rv: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001351_2.fastq.gz
+    locustag:  "PNUSAC001351"
+    genustag:  "Campylobacter"
+    taxonomy:  "Campylobacter"
+  PNUSAC001352:
+    fw: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001352_1.fastq.gz
+    rv: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001352_2.fastq.gz
+    locustag:  "PNUSAC001352"
+    genustag:  "Campylobacter"
+    taxonomy:  "Campylobacter"
+  PNUSAC001353:
+    fw: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001353_1.fastq.gz
+    rv: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001353_2.fastq.gz
+    locustag:  "PNUSAC001353"
+    genustag:  "Campylobacter"
+    taxonomy:  "Campylobacter"
+  PNUSAC001354:
+    fw: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001354_1.fastq.gz
+    rv: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001354_2.fastq.gz
+    locustag:  "PNUSAC001354"
+    genustag:  "Campylobacter"
+    taxonomy:  "Campylobacter"
+  PNUSAC001355:
+    fw: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001355_1.fastq.gz
+    rv: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001355_2.fastq.gz
+    locustag:  "PNUSAC001355"
+    genustag:  "Campylobacter"
+    taxonomy:  "Campylobacter"
+  PNUSAC001356:
+    fw: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001356_1.fastq.gz
+    rv: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001356_2.fastq.gz
+    locustag:  "PNUSAC001356"
+    genustag:  "Campylobacter"
+    taxonomy:  "Campylobacter"
+  PNUSAC001357:
+    fw: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001357_1.fastq.gz
+    rv: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001357_2.fastq.gz
+    locustag:  "PNUSAC001357"
+    genustag:  "Campylobacter"
+    taxonomy:  "Campylobacter"
+  PNUSAC001358:
+    fw: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001358_1.fastq.gz
+    rv: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001358_2.fastq.gz
+    locustag:  "PNUSAC001358"
+    genustag:  "Campylobacter"
+    taxonomy:  "Campylobacter"
+  PNUSAC001359:
+    fw: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001359_1.fastq.gz
+    rv: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001359_2.fastq.gz
+    locustag:  "PNUSAC001359"
+    genustag:  "Campylobacter"
+    taxonomy:  "Campylobacter"
+  PNUSAC001360:
+    fw: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001360_1.fastq.gz
+    rv: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001360_2.fastq.gz
+    locustag:  "PNUSAC001360"
+    genustag:  "Campylobacter"
+    taxonomy:  "Campylobacter"
+  PNUSAC001361:
+    fw: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001361_1.fastq.gz
+    rv: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001361_2.fastq.gz
+    locustag:  "PNUSAC001361"
+    genustag:  "Campylobacter"
+    taxonomy:  "Campylobacter"
+  PNUSAC001362:
+    fw: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001362_1.fastq.gz
+    rv: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001362_2.fastq.gz
+    locustag:  "PNUSAC001362"
+    genustag:  "Campylobacter"
+    taxonomy:  "Campylobacter"
+  PNUSAC001363:
+    fw: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001363_1.fastq.gz
+    rv: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001363_2.fastq.gz
+    locustag:  "PNUSAC001363"
+    genustag:  "Campylobacter"
+    taxonomy:  "Campylobacter"
+  PNUSAC001364:
+    fw: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001364_1.fastq.gz
+    rv: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001364_2.fastq.gz
+    locustag:  "PNUSAC001364"
+    genustag:  "Campylobacter"
+    taxonomy:  "Campylobacter"
+  PNUSAC001365:
+    fw: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001365_1.fastq.gz
+    rv: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001365_2.fastq.gz
+    locustag:  "PNUSAC001365"
+    genustag:  "Campylobacter"
+    taxonomy:  "Campylobacter"
+  PNUSAC001366:
+    fw: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001366_1.fastq.gz
+    rv: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001366_2.fastq.gz
+    locustag:  "PNUSAC001366"
+    genustag:  "Campylobacter"
+    taxonomy:  "Campylobacter"
+  PNUSAC001367:
+    fw: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001367_1.fastq.gz
+    rv: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001367_2.fastq.gz
+    locustag:  "PNUSAC001367"
+    genustag:  "Campylobacter"
+    taxonomy:  "Campylobacter"
+  PNUSAC001368:
+    fw: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001368_1.fastq.gz
+    rv: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001368_2.fastq.gz
+    locustag:  "PNUSAC001368"
+    genustag:  "Campylobacter"
+    taxonomy:  "Campylobacter"
+  PNUSAC001369:
+    fw: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001369_1.fastq.gz
+    rv: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001369_2.fastq.gz
+    locustag:  "PNUSAC001369"
+    genustag:  "Campylobacter"
+    taxonomy:  "Campylobacter"
+  PNUSAC001370:
+    fw: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001370_1.fastq.gz
+    rv: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001370_2.fastq.gz
+    locustag:  "PNUSAC001370"
+    genustag:  "Campylobacter"
+    taxonomy:  "Campylobacter"
+  PNUSAC001371:
+    fw: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001371_1.fastq.gz
+    rv: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001371_2.fastq.gz
+    locustag:  "PNUSAC001371"
+    genustag:  "Campylobacter"
+    taxonomy:  "Campylobacter"
+  PNUSAC001372:
+    fw: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001372_1.fastq.gz
+    rv: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001372_2.fastq.gz
+    locustag:  "PNUSAC001372"
+    genustag:  "Campylobacter"
+    taxonomy:  "Campylobacter"
+  PNUSAC001373:
+    fw: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001373_1.fastq.gz
+    rv: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001373_2.fastq.gz
+    locustag:  "PNUSAC001373"
+    genustag:  "Campylobacter"
+    taxonomy:  "Campylobacter"
+  PNUSAC001374:
+    fw: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001374_1.fastq.gz
+    rv: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001374_2.fastq.gz
+    locustag:  "PNUSAC001374"
+    genustag:  "Campylobacter"
+    taxonomy:  "Campylobacter"
+  PNUSAC001375:
+    fw: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001375_1.fastq.gz
+    rv: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001375_2.fastq.gz
+    locustag:  "PNUSAC001375"
+    genustag:  "Campylobacter"
+    taxonomy:  "Campylobacter"
+  PNUSAC001376:
+    fw: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001376_1.fastq.gz
+    rv: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001376_2.fastq.gz
+    locustag:  "PNUSAC001376"
+    genustag:  "Campylobacter"
+    taxonomy:  "Campylobacter"
+  PNUSAC001377:
+    fw: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001377_1.fastq.gz
+    rv: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001377_2.fastq.gz
+    locustag:  "PNUSAC001377"
+    genustag:  "Campylobacter"
+    taxonomy:  "Campylobacter"
+  PNUSAC001378:
+    fw: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001378_1.fastq.gz
+    rv: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001378_2.fastq.gz
+    locustag:  "PNUSAC001378"
+    genustag:  "Campylobacter"
+    taxonomy:  "Campylobacter"
+  PNUSAC001379:
+    fw: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001379_1.fastq.gz
+    rv: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001379_2.fastq.gz
+    locustag:  "PNUSAC001379"
+    genustag:  "Campylobacter"
+    taxonomy:  "Campylobacter"
+  PNUSAC001380:
+    fw: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001380_1.fastq.gz
+    rv: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001380_2.fastq.gz
+    locustag:  "PNUSAC001380"
+    genustag:  "Campylobacter"
+    taxonomy:  "Campylobacter"
+  PNUSAC001381:
+    fw: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001381_1.fastq.gz
+    rv: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001381_2.fastq.gz
+    locustag:  "PNUSAC001381"
+    genustag:  "Campylobacter"
+    taxonomy:  "Campylobacter"
+  PNUSAC001382:
+    fw: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001382_1.fastq.gz
+    rv: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001382_2.fastq.gz
+    locustag:  "PNUSAC001382"
+    genustag:  "Campylobacter"
+    taxonomy:  "Campylobacter"
+  PNUSAC001383:
+    fw: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001383_1.fastq.gz
+    rv: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001383_2.fastq.gz
+    locustag:  "PNUSAC001383"
+    genustag:  "Campylobacter"
+    taxonomy:  "Campylobacter"
+  PNUSAC001552:
+    fw: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001552_1.fastq.gz
+    rv: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/PNUSAC001552_2.fastq.gz
+    locustag:  "PNUSAC001552"
+    genustag:  "Campylobacter"
+    taxonomy:  "Campylobacter"
+ 
+genomes:
+  Campylobacter-jejuni-subsp-jejuni-110-21:
+    fasta: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/Campylobacter-jejuni-subsp-jejuni-110-21.fasta
+    locustag:  "Campylobacter-jejuni-subsp-jejuni-110-21"
+    genustag:  "Campylobacter"
+    taxonomy:  "Campylobacter"
+  Campylobacter-jejuni-subsp-jejuni-atcc-33560:
+    fasta: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/Campylobacter-jejuni-subsp-jejuni-atcc-33560.fasta
+    locustag:  "Campylobacter-jejuni-subsp-jejuni-atcc-33560"
+    genustag:  "Campylobacter"
+    taxonomy:  "Campylobacter"
+  Campylobacter-jejuni-subsp-jejuni-NCTC11168:
+    fasta: /home/mostafa.abdel/aProjects/Campylobacter/typingAccreditation/outbreaks/Oakeson-2018/dataset/Campylobacter-jejuni-subsp-jejuni-NCTC11168.fasta
+    locustag:  "Campylobacter-jejuni-subsp-jejuni-NCTC11168"
+    genustag:  "Campylobacter"
+    taxonomy:  "Campylobacter"
+DB:
+  minikraken: /home/mostafa.abdel/dbs/miniKraken/minikraken_20171019_8GB
+  kraken: /home/DB_RAM/KrakenDB
+  krona: /home/DB/Krona_Taxonomy
+
+AMR_db:  /data/AGr110/mostafa/ariba_fmt_dbs/ariba_Card
+VF_db: /data/AGr110/mostafa/ariba_fmt_dbs/ariba_vfdb_full
+micDATA: /home/mostafa.abdel/aProjects/Campylobacter/snakemakeProject/Final-Snake-Project/data/micData.txt
+
+AMR_db_abricate: card
+VF_db_abricate: vfdb
+tools:
+  scripts_dir: /home/mostafa.abdel/aProjects/Campylobacter/snakemakeProject/Final-Snake-Project/Scripts
+  multiqc_bin: /home/mostafa.abdel/.local/bin
+directories:
+  snakemake_folder: /home/mostafa.abdel/aProjects/Campylobacter/snakemakeProject/Final-Snake-Project

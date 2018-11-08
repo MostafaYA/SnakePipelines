@@ -1,5 +1,5 @@
 """----------------------------
-Mostafa.Abdel-Glil@fli.de, date: October, 15, 2018
+Mostafa.Abdel-Glil@fli.de, date: October, 15, 2018, Friedrich-Loeffler-Institut (https://www.fli.de/)
 -------------------------------
 The pipeline includes the following
 - fastqc - quality assessment of raw reads
@@ -22,8 +22,8 @@ https://github.com/tanaes/snakemake_assemble/blob/master/bin/snakefiles/assemble
 -------------------------------
 # To-Do
 #edit rules
+- IMPORTANT: change all run in all rules to shell, so you can execute snakemake with --use-conda
 - rule dataset_link, #make sure that the symbolic links are not broken (e.g., if the path is not fully written in config), otherwise copy the files #under test
-- for multiqc: to list coverage in the sample line, in the Coverage rule, replace the {sample}.filtered.contigs.fasta by {sample}.fasta
 - mini_kraken and mini_kraken_summary folders, edit the scripts to make changing the folders names felxible
 - add log files to the rules
 - add benchmark to the rules
@@ -52,8 +52,8 @@ Raw folder contin a symbolic links for the raw reads
 """
 rule dataset_link: #this is to simplify the names of the raw data, so all samples  will be named as sample ID + _1 or _2 for fw and rv reads respect.
     input:
-        fw= lambda wildcards: config["samples"][wildcards.sample]["fw"],
-        rv= lambda wildcards: config["samples"][wildcards.sample]["rv"]
+        fw= lambda wildcards: config["samples"][wildcards.sample]["fw"], #fw= lambda wildcards: expand(config["samples"][wildcards.sample]["fw"], sample=sample),
+        rv= lambda wildcards: config["samples"][wildcards.sample]["rv"],
     output:
         raw_1=temp(link_dir + "{sample}_1.fastq.gz"),
         raw_2=temp(link_dir + "{sample}_2.fastq.gz")
@@ -76,8 +76,8 @@ rule GUNZIP:
         fw= lambda wildcards: config["samples"][wildcards.sample]["fw"],
         rv= lambda wildcards: config["samples"][wildcards.sample]["rv"]
     output:
-        FASTQ_1= fastq_dir + "{sample}_1.fastq",
-        FASTQ_2= fastq_dir + "{sample}_2.fastq"
+        FASTQ_1= temp(fastq_dir + "{sample}_1.fastq"),
+        FASTQ_2= temp(fastq_dir + "{sample}_2.fastq")
     shell:
         "gunzip -c {input.fw} > {output.FASTQ_1} & gunzip -c {input.rv} > {output.FASTQ_2}"
 
@@ -91,8 +91,14 @@ rule FastQC:
     output:
         fastqc_zip = fastqc_dir + "{sample}/{sample}_2_fastqc.zip"
     threads: 32
+    benchmark:
+        benchmarks_folder + "{sample}/fastqc.txt"
+    log:
+        log_folder + "{sample}/fastqc.log"
+    conda:
+      envs_folder + "fastqc.yaml"
     run:
-        shell("fastqc -t {threads} -f fastq --quiet -o {fastqc_dir}{wildcards.sample} {input.r1} {input.r2}")
+        shell("fastqc -t {threads} -f fastq --quiet -o {fastqc_dir}{wildcards.sample} {input.r1} {input.r2} &> {log}")
 """
 Quality trimming of raw reads using Sickle
 """
@@ -105,8 +111,14 @@ rule Trimming:
         SICKLE_R2= sickle_dir + "{sample}/{sample}_trim_2.fastq.gz",
         SICKLE_single= sickle_dir + "{sample}/{sample}_singlesfile.fastq.gz"
     threads: 32
+    benchmark:
+        benchmarks_folder + "{sample}/sickle.txt"
+    log:
+        log_folder + "{sample}/sickle.log"
+    #conda:
+    #  envs_folder + "sickle.yaml"
     shell:
-        "sickle pe -l 40 -q 20 -g -t sanger  -f {input.r1} -r {input.r2}  -o {output.SICKLE_R1} -p {output.SICKLE_R2} -s {output.SICKLE_single}"
+        "sickle pe -l 40 -q 20 -g -t sanger  -f {input.r1} -r {input.r2}  -o {output.SICKLE_R1} -p {output.SICKLE_R2} -s {output.SICKLE_single} &> {log}"
 """
 Assembly using SPAdes (`--careful --cov-cutoff auto`)
 """
@@ -125,9 +137,15 @@ rule SPAdes: #do assembly with SPAdes,
         SPAdes_Filtered_contig= SPAdes_dir + "{sample}/{sample}.fasta",
         collect_contig=FilteredContigs_dir + "{sample}.fasta"
     threads: 32
+    benchmark:
+        benchmarks_folder + "{sample}/spades.txt"
+    log:
+        log_folder + "{sample}/spades.log"
+    conda:
+      envs_folder + "spades.yaml"
     run:
         commands = [
-            "spades.py --careful --cov-cutoff auto -t {threads} -1 {input.SICKLE_R1} -2 {input.SICKLE_R2} -s {input.SICKLE_single} -o {SPAdes_dir}{wildcards.sample}",
+            "spades.py --careful --cov-cutoff auto -t {threads} -1 {input.SICKLE_R1} -2 {input.SICKLE_R2} -s {input.SICKLE_single} -o {SPAdes_dir}{wildcards.sample} &> {log}",
             "python {input.scripts_dir}/filter_contigs.py -i {output.SPAdes_contig} -o  {output.SPAdes_Filtered_contig} -c 3 -l 500",
             "rm -R {SPAdes_dir}{wildcards.sample}/mismatch_corrector && rm -R {SPAdes_dir}{wildcards.sample}/K* && rm -R {SPAdes_dir}{wildcards.sample}/misc",
             "bash {input.scripts_dir}/fa_rename.sh {output.SPAdes_Filtered_contig} {output.collect_contig}"
@@ -149,10 +167,16 @@ rule kraken: #screen the fastq files against minikraken database and summarize t
         mini_kraken_report= kraken_fastq_dir + "{sample}.report.txt",
         mini_kraken_report_summary= kraken_fastq_dir + "{sample}.report_summary.txt"
     threads: 32
+    benchmark:
+        benchmarks_folder + "{sample}/kraken.txt"
+    log:
+        log_folder + "{sample}/kraken.log"
+    conda:
+      envs_folder + "kraken.yaml"
     run:
         commands = [
             "kraken --db {input.db} --paired --check-names --threads {threads} --fastq-input {input.FASTQ_1} {input.FASTQ_2} \
-            --output {output.mini_kraken_seq}",
+            --output {output.mini_kraken_seq} &> {log}",
             "kraken-translate --db {input.db} {output.mini_kraken_seq} > {output.mini_kraken_seq_label}",
             "kraken-report --db {input.db} {output.mini_kraken_seq} > {output.mini_kraken_report}",
             """ awk '{{print $4}}' {output.mini_kraken_seq_label} | sort | uniq -c | sort -nr > {output.mini_kraken_report_summary}""",
@@ -176,9 +200,15 @@ rule kraken_contig:
         kraken_contig_report_summary= kraken_contig_dir + "{sample}/{sample}.report_summary.txt",
         krona_chart= kraken_contig_dir + "{sample}/{sample}.krona_chart.html"
     threads: 32
+    benchmark:
+        benchmarks_folder + "{sample}/kraken_contig.txt"
+    log:
+        log_folder + "{sample}/kraken_contig.log"
+    conda:
+      envs_folder + "kraken.yaml" #, "krona.yaml"
     run:
         commands = [
-            "kraken --db {input.db} --threads {threads} --fasta-input {input.SPAdes_Filtered_contig} --output {output.kraken_contig}",
+            "kraken --db {input.db} --threads {threads} --fasta-input {input.SPAdes_Filtered_contig} --output {output.kraken_contig} &> {log}",
             "kraken-translate --db {input.db} {output.kraken_contig} > {output.kraken_contig_label}",
             """ awk '{{print $4}}' {output.kraken_contig_label} | sort | uniq -c | sort -nr > {output.kraken_contig_report_summary}""",
             #see: https://github.com/BacterialCommunitiesAndPopulation/Wednesday18thMay/blob/master/Assembly_Tutorial.md

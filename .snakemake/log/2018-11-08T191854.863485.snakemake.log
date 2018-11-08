@@ -1,0 +1,3 @@
+WorkflowError in line 11 of /home/mostafa.abdel/aProjects/Campylobacter/snakemakeProject/snakepipelines_bacterialgenomes/master.Snakefile:
+Config file assembly1.config.yaml not found.
+  File "/home/mostafa.abdel/aProjects/Campylobacter/snakemakeProject/snakepipelines_bacterialgenomes/master.Snakefile", line 11, in <module>
