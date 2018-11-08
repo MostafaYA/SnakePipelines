@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## Introduction
 ------------------------------
 This is a bioinformatics workflow that built using snakemake with the aim to automatic downstream processing of Next Generation Sequencing (NGS) reads, currently supports only paired-end Illumina sequence data. This project bundles a number of snakefiles for a _de novo_ assembly, pan-genome and detecting genes for antimicrobial resistance as well as virulence. This is a brief description on the snakefiles     
@@ -118,3 +119,17 @@ Execute the commands in the pipeline by removing the `-np` option
 ## Contact 
 ___
 Comments should be addressed to Mostafa.Abdel-Glil@fli.de 
+=======
+### RUN
+##### generate the config file using the script generateConfigSnakemake.sh
+
+```
+    ./Scripts/generateConfigSnakemake.sh /home/mostafa.abdel/ncbi/public/sra assembly1.config.file Campylobacter
+```
+
+##### edit the snakemake_folder in the config file 
+directories:
+  snakemake_folder: /home/mostafa.abdel/aProjects/Campylobacter/snakemakeProject/Final-Snake-Project
+##### run the pipeline in a dry run 
+snakemake -np --snakefile master.Snakefile
+>>>>>>> 9fa7866ed2248005978da79a6cc88d920840f809
