@@ -1,4 +1,4 @@
-###RUN
+### RUN
 #####generate the config file using the script generateConfigSnakemake.sh
 '''
 ./Scripts/generateConfigSnakemake.sh /home/mostafa.abdel/ncbi/public/sra assembly1.config.file Campylobacter
