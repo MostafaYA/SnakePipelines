@@ -1,4 +1,4 @@
-## Introduction
+### Introduction
 ------------------------------
 This is a bioinformatics workflow that built using snakemake with the aim to automatic downstream processing of Next Generation Sequencing (NGS) reads, currently supports only paired-end Illumina sequence data. This project bundles a number of snakefiles for a _de novo_ assembly, pan-genome and detecting genes for antimicrobial resistance as well as virulence. This is a brief description on the snakefiles     
 
@@ -48,9 +48,9 @@ The workflow was used with the following versions of software
 * SAMTools v1.4-14-g90b995f  http://samtools.sourceforge.net/
 * FastTree v2.1.9 http://www.microbesonline.org/fasttree/
 
-## Getting Started
+### Getting Started
 ------------------------------
-### Setting up a project folder and obtain the latest version of the workflow 
+#### Setting up a project folder and obtain the latest version of the workflow 
 * Set up a project folder for the run 
 
         mkdir NGS-Project
@@ -61,7 +61,7 @@ The workflow was used with the following versions of software
         
         git clone https://gitlab.com/Mostafa.Abdel-Glil/snakepipelines_bacterialgenomes.git
 
-### Generate a config file for the pipeline 
+#### Generate a config file for the pipeline 
 A bash script `generateConfigSnakemake.sh ` is written to automatically generate a config file in yaml format providing a folder that holds the raw data as well as the already assembled genomes. The produced config file list all raw data and assembled genome and contain the paths of databases and scripts. Some editing to config file is essential to set up the paths for databases 
 ```
 USAGE:
@@ -104,7 +104,7 @@ directories:
   snakemake_folder: /home/mostafa.abdel/aProjects/Campylobacter/snakemakeProject/Final-Snake-Project
 ```
 
-### Running the snake pipeline 
+#### Running the snake pipeline 
 It is always a good idea to display what the workflow will do without execution. For doing that, we will use the follwoing command. 
 
     snakemake -np --quiet --snakefile master.Snakefile
@@ -115,7 +115,7 @@ Execute the commands in the pipeline by removing the `-np` option
 
 
     
-#### Contact 
+### Contact 
 ___
 
 Comments should be addressed to Mostafa.Abdel-Glil@fli.de 
