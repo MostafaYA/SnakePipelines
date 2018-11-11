@@ -152,9 +152,9 @@ rule VFaribaSummary:
     shell:
         "ariba summary {params.outfile_name} {input.ariba_report}"
 """
-AMR using ABRicate and AMR db
+VF using ABRicate and VF db
 """
-rule VFabricate: #search AMR genes using abricate and an AMR database
+rule VFabricate: #search VF genes using abricate and an VF database
                    #search using the fasta files
     input:
         adhoc_assemblies=lambda wildcards: config["genomes"][wildcards.genome]["fasta"]
@@ -171,7 +171,7 @@ rule VFabricate: #search AMR genes using abricate and an AMR database
     shell:
         "abricate --nopath --threads {threads} --db {params.VF_abricate} {input.adhoc_assemblies} >  {output.abricate_report}"
 """
-Summary AMR using Abricate and AMR db
+Summary VF using Abricate and VF db
 """
 rule VFabricatesummary:
     input:
